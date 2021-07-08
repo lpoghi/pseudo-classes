@@ -1,0 +1,58 @@
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: darkblue;
+  margin-left: 0px ;
+
+}
+
+li{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+}
+
+li a{
+   color: white;
+}
+li a:hover {
+  background-color: lightblue;
+  padding: 10px;
+}
+
+input[type=text]:focus {
+  border: 4px solid aqua;
+  outline: none;
+}
+
+
+a{
+  text-decoration: none;
+}
+
+.currentpage{
+  background-color:#4a5053;
+  padding: 10px;
+}
+.link1:hover {
+    color: lightblue;
+    font-weight: bold;
+}
+
+.link2:active{
+  color: red;
+  font-style: italic;
+}
+
+.link3:visited{
+  color: yellow;
+}
+
+input:focus{ 
+  color: green;
+  font-weight: 20px;
+}
+
